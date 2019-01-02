@@ -28,6 +28,8 @@ def run():
 
 @manager.command
 def new_games():
+    if os.path.exists('match_details.json'):
+        os.remove('match_details.json')
     collect_games_details()
     save_game_data()
 

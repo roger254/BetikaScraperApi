@@ -7,11 +7,10 @@ clean:
 system-packages:
 	sudo apt install python-pip -y
 
-
 python-packages:
 	pip install -r requirements.txt
 
-install:system-packages python-packages
+install: system-packages python-packages
 
 scrape:
 	python manage.py new_games
