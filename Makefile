@@ -13,7 +13,7 @@ python-packages:
 
 install:system-packages python-packages
 
-scape:
+scrape:
 	python manage.py new_games
 
 run:
