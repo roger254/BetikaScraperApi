@@ -4,6 +4,7 @@
     Create a python virtual enviroments
     for more instructions on how to create a virtual env:
         -> https://docs.python.org/3/tutorial/venv.html
+    Create a .env file with the required database variables
 ### Terminal commands
 
     Initial installation: make install
